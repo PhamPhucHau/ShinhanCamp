@@ -1,0 +1,506 @@
+2023-02-17 15:49:53.342  INFO 2868 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 2868 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 15:49:53.344  INFO 2868 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 15:49:54.214  INFO 2868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 15:49:54.220  INFO 2868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 15:49:54.220  INFO 2868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 15:49:54.323  INFO 2868 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 15:49:54.323  INFO 2868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 941 ms
+2023-02-17 15:49:54.664  INFO 2868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 15:49:54.674  INFO 2868 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.692 seconds (JVM running for 2.728)
+2023-02-17 15:51:14.181  INFO 2868 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 15:51:14.181  INFO 2868 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 15:51:14.182  INFO 2868 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 15:53:46.476  INFO 10168 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 10168 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 15:53:46.479  INFO 10168 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 15:53:47.209  INFO 10168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 15:53:47.215  INFO 10168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 15:53:47.215  INFO 10168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 15:53:47.285  INFO 10168 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 15:53:47.285  INFO 10168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2023-02-17 15:53:47.600  INFO 10168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 15:53:47.608  INFO 10168 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.427 seconds (JVM running for 2.188)
+2023-02-17 15:53:50.830  INFO 10168 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 15:53:50.831  INFO 10168 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 15:53:50.831  INFO 10168 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 15:53:50.849  WARN 10168 --- [http-nio-9081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-02-17 15:54:07.711  WARN 10168 --- [http-nio-9081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'departmentDTO' on field 'description': rejected value [null]; codes [NotNull.departmentDTO.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [departmentDTO.description,description]; arguments []; default message [description]]; default message [Thiếu description]<EOL>Field error in object 'departmentDTO' on field 'deptName': rejected value [null]; codes [NotNull.departmentDTO.deptName,NotNull.deptName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [departmentDTO.deptName,deptName]; arguments []; default message [deptName]]; default message [Thiếu title]]
+2023-02-17 15:55:48.323  WARN 10168 --- [http-nio-9081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'departmentDTO' on field 'description': rejected value [null]; codes [NotNull.departmentDTO.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [departmentDTO.description,description]; arguments []; default message [description]]; default message [Thiếu description]<EOL>Field error in object 'departmentDTO' on field 'deptName': rejected value [null]; codes [NotNull.departmentDTO.deptName,NotNull.deptName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [departmentDTO.deptName,deptName]; arguments []; default message [deptName]]; default message [Thiếu title]]
+2023-02-17 15:56:45.785  WARN 10168 --- [http-nio-9081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.example.demo.controller.EmployeeDTO> com.example.demo.controller.EmployeeDTO.getEmployee(com.example.demo.controller.EmployeeDTO)]
+2023-02-17 16:01:47.685  INFO 6444 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 6444 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:01:47.688  INFO 6444 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:01:48.512  INFO 6444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:01:48.518  INFO 6444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:01:48.518  INFO 6444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:01:48.602  INFO 6444 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:01:48.603  INFO 6444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 854 ms
+2023-02-17 16:01:48.999  INFO 6444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:01:49.010  INFO 6444 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.658 seconds (JVM running for 2.349)
+2023-02-17 16:01:58.868  INFO 6444 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:01:58.869  INFO 6444 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:01:58.869  INFO 6444 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:02:36.531  INFO 11500 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 11500 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:02:36.534  INFO 11500 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:02:37.493  INFO 11500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:02:37.503  INFO 11500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:02:37.503  INFO 11500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:02:37.619  INFO 11500 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:02:37.620  INFO 11500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2023-02-17 16:02:38.016  INFO 11500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:02:38.025  INFO 11500 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.806 seconds (JVM running for 3.094)
+2023-02-17 16:02:42.913  INFO 11500 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:02:42.914  INFO 11500 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:02:42.914  INFO 11500 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:02:56.201  INFO 4004 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 4004 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:02:56.206  INFO 4004 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:02:56.983  INFO 4004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:02:56.989  INFO 4004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:02:56.989  INFO 4004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:02:57.051  INFO 4004 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:02:57.051  INFO 4004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2023-02-17 16:02:57.439  INFO 4004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:02:57.449  INFO 4004 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.665 seconds (JVM running for 2.549)
+2023-02-17 16:03:01.444  INFO 4004 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:03:01.444  INFO 4004 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:03:01.445  INFO 4004 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:06:55.534  INFO 11048 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 11048 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:06:55.539  INFO 11048 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:06:56.497  INFO 11048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:06:56.504  INFO 11048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:06:56.504  INFO 11048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:06:56.584  INFO 11048 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:06:56.584  INFO 11048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 980 ms
+2023-02-17 16:06:56.990  INFO 11048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:06:56.999  INFO 11048 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.9 seconds (JVM running for 2.775)
+2023-02-17 16:07:13.678  INFO 11048 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:07:13.679  INFO 11048 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:07:13.679  INFO 11048 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:10:47.800  INFO 9636 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 9636 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:10:47.803  INFO 9636 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:10:48.655  INFO 9636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:10:48.660  INFO 9636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:10:48.660  INFO 9636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:10:48.728  INFO 9636 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:10:48.728  INFO 9636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 881 ms
+2023-02-17 16:10:49.068  INFO 9636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:10:49.077  INFO 9636 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.795 seconds (JVM running for 2.705)
+2023-02-17 16:11:03.963  INFO 9636 --- [http-nio-9081-exec-4] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:11:03.964  INFO 9636 --- [http-nio-9081-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:11:03.965  INFO 9636 --- [http-nio-9081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:11:04.032  WARN 9636 --- [http-nio-9081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "23-01-2001": not a valid representation (error: Failed to parse Date value '23-01-2001': Cannot parse date "23-01-2001": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd")); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "23-01-2001": not a valid representation (error: Failed to parse Date value '23-01-2001': Cannot parse date "23-01-2001": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSX", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 17] (through reference chain: com.example.demo.dto.EmployeeDTO["birthDate"])]
+2023-02-17 16:13:43.815  INFO 15164 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 15164 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:13:43.818  INFO 15164 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:13:44.761  INFO 15164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:13:44.766  INFO 15164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:13:44.766  INFO 15164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:13:44.834  INFO 15164 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:13:44.834  INFO 15164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2023-02-17 16:13:45.147  INFO 15164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:13:45.155  INFO 15164 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.649 seconds (JVM running for 2.302)
+2023-02-17 16:13:49.078  INFO 15164 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:13:49.078  INFO 15164 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:13:49.079  INFO 15164 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:13:53.191  WARN 15164 --- [http-nio-9081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): expected a value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 19]]
+2023-02-17 16:15:46.357  INFO 13992 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 13992 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:15:46.360  INFO 13992 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:15:47.153  INFO 13992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:15:47.158  INFO 13992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:15:47.158  INFO 13992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:15:47.227  INFO 13992 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:15:47.227  INFO 13992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 813 ms
+2023-02-17 16:15:47.536  INFO 13992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:15:47.544  INFO 13992 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.536 seconds (JVM running for 2.366)
+2023-02-17 16:15:50.347  INFO 13992 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:15:50.348  INFO 13992 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:15:50.348  INFO 13992 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:16:32.338  INFO 7056 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 7056 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:16:32.341  INFO 7056 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:16:33.233  INFO 7056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:16:33.238  INFO 7056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:16:33.238  INFO 7056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:16:33.310  INFO 7056 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:16:33.310  INFO 7056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 923 ms
+2023-02-17 16:16:33.646  INFO 7056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:16:33.654  INFO 7056 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.626 seconds (JVM running for 2.32)
+2023-02-17 16:16:36.536  INFO 7056 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:16:36.536  INFO 7056 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:16:36.537  INFO 7056 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:21:40.174  INFO 3988 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 3988 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:21:40.178  INFO 3988 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:21:41.026  INFO 3988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:21:41.031  INFO 3988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:21:41.032  INFO 3988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:21:41.099  INFO 3988 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:21:41.099  INFO 3988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2023-02-17 16:21:41.428  INFO 3988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:21:41.439  INFO 3988 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.548 seconds (JVM running for 2.181)
+2023-02-17 16:21:53.579  INFO 3988 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:21:53.579  INFO 3988 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:21:53.580  INFO 3988 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:21:53.592  WARN 3988 --- [http-nio-9081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-02-17 16:25:23.276  INFO 14784 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 14784 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:25:23.280  INFO 14784 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:25:24.008  INFO 14784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:25:24.014  INFO 14784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:25:24.014  INFO 14784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:25:24.095  INFO 14784 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:25:24.095  INFO 14784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 773 ms
+2023-02-17 16:25:24.520  INFO 14784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:25:24.531  INFO 14784 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.675 seconds (JVM running for 2.958)
+2023-02-17 16:25:26.350  INFO 14784 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:25:26.351  INFO 14784 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:25:26.351  INFO 14784 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:25:40.787  INFO 7080 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 7080 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:25:40.792  INFO 7080 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:25:41.645  INFO 7080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:25:41.651  INFO 7080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:25:41.652  INFO 7080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:25:41.718  INFO 7080 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:25:41.718  INFO 7080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 870 ms
+2023-02-17 16:25:42.563  INFO 7080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:25:42.577  INFO 7080 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.235 seconds (JVM running for 3.128)
+2023-02-17 16:25:49.778  INFO 7080 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:25:49.778  INFO 7080 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:25:49.779  INFO 7080 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:27:07.050  INFO 13016 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 13016 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:27:07.053  INFO 13016 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:27:07.986  INFO 13016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:27:07.991  INFO 13016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:27:07.991  INFO 13016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:27:08.057  INFO 13016 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:27:08.058  INFO 13016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 957 ms
+2023-02-17 16:27:08.428  INFO 13016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:27:08.438  INFO 13016 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.756 seconds (JVM running for 2.716)
+2023-02-17 16:27:09.281  INFO 13016 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:27:09.282  INFO 13016 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:27:09.282  INFO 13016 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 16:28:19.138  INFO 12900 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 12900 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:28:19.142  INFO 12900 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:28:19.980  INFO 12900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:28:19.986  INFO 12900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:28:19.986  INFO 12900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:28:20.053  INFO 12900 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:28:20.053  INFO 12900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 866 ms
+2023-02-17 16:28:20.389  INFO 12900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:28:20.399  INFO 12900 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.591 seconds (JVM running for 2.275)
+2023-02-17 16:28:23.236  INFO 12900 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:28:23.236  INFO 12900 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:28:23.237  INFO 12900 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:28:44.647  INFO 15312 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 15312 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:28:44.650  INFO 15312 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:28:45.428  INFO 15312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:28:45.433  INFO 15312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:28:45.433  INFO 15312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:28:45.501  INFO 15312 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:28:45.501  INFO 15312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2023-02-17 16:28:45.864  INFO 15312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:28:45.872  INFO 15312 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.562 seconds (JVM running for 2.341)
+2023-02-17 16:28:49.959  INFO 15312 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:28:49.959  INFO 15312 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:28:49.960  INFO 15312 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:29:09.988  INFO 11912 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 11912 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:29:09.991  INFO 11912 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:29:10.804  INFO 11912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:29:10.815  INFO 11912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:29:10.816  INFO 11912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:29:10.892  INFO 11912 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:29:10.892  INFO 11912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 847 ms
+2023-02-17 16:29:11.245  INFO 11912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:29:11.253  INFO 11912 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.652 seconds (JVM running for 2.376)
+2023-02-17 16:29:26.650  INFO 11912 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:29:26.651  INFO 11912 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:29:26.652  INFO 11912 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:32:36.471  INFO 14100 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 14100 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:32:36.474  INFO 14100 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:32:37.293  INFO 14100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:32:37.298  INFO 14100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:32:37.298  INFO 14100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:32:37.364  INFO 14100 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:32:37.364  INFO 14100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 845 ms
+2023-02-17 16:32:37.705  INFO 14100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:32:37.713  INFO 14100 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.539 seconds (JVM running for 2.188)
+2023-02-17 16:36:34.217  INFO 14100 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:36:34.217  INFO 14100 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:36:34.218  INFO 14100 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:38:25.853  INFO 8056 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 8056 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:38:25.855  INFO 8056 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:38:26.568  INFO 8056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:38:26.573  INFO 8056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:38:26.573  INFO 8056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:38:26.642  INFO 8056 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:38:26.642  INFO 8056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms
+2023-02-17 16:38:26.995  INFO 8056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:38:27.010  INFO 8056 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.456 seconds (JVM running for 2.085)
+2023-02-17 16:39:05.653  INFO 8056 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:39:05.653  INFO 8056 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:39:05.654  INFO 8056 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:50:33.431  WARN 8056 --- [http-nio-9081-exec-5] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2023-02-17 16:50:36.988  WARN 8056 --- [http-nio-9081-exec-7] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2023-02-17 16:50:39.778  WARN 8056 --- [http-nio-9081-exec-8] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2023-02-17 16:50:55.135  INFO 15036 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 15036 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 16:50:55.210  INFO 15036 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:50:56.378  INFO 15036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 16:50:56.384  INFO 15036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:50:56.384  INFO 15036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 16:50:56.464  INFO 15036 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:50:56.464  INFO 15036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1209 ms
+2023-02-17 16:50:56.867  INFO 15036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 16:50:56.877  INFO 15036 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.109 seconds (JVM running for 2.913)
+2023-02-17 16:51:17.867  INFO 15036 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 16:51:17.867  INFO 15036 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 16:51:17.868  INFO 15036 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 16:51:18.025  INFO 15036 --- [http-nio-9081-exec-1] com.example.demo.OAP.ServiceAspect       : before calledexecution(EmployeeDTO com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeDTO))
+2023-02-17 16:51:18.033  INFO 15036 --- [http-nio-9081-exec-1] com.example.demo.OAP.ServiceAspect       : after calledexecution(EmployeeDTO com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeDTO))
+2023-02-17 19:09:50.464  INFO 14288 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 14288 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 19:09:50.493  INFO 14288 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 19:09:51.833  INFO 14288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 19:09:51.843  INFO 14288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 19:09:51.843  INFO 14288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 19:09:51.947  INFO 14288 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 19:09:51.947  INFO 14288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1393 ms
+2023-02-17 19:09:52.550  INFO 14288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 19:09:52.624  INFO 14288 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.646 seconds (JVM running for 3.534)
+2023-02-17 19:11:10.818  INFO 14288 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 19:11:10.818  INFO 14288 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 19:11:10.819  INFO 14288 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 19:45:43.347  INFO 15884 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 15884 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 19:45:43.350  INFO 15884 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 19:45:44.527  INFO 15884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 19:45:44.541  INFO 15884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 19:45:44.541  INFO 15884 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 19:45:44.650  INFO 15884 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 19:45:44.651  INFO 15884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1249 ms
+2023-02-17 19:45:45.133  INFO 15884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 19:45:45.142  INFO 15884 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.216 seconds (JVM running for 3.381)
+2023-02-17 19:45:46.388  INFO 15884 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 19:45:46.389  INFO 15884 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 19:45:46.389  INFO 15884 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-17 19:45:54.135  INFO 15884 --- [http-nio-9081-exec-4] com.example.demo.OAP.ServiceAspect       :  before calledexecution(EmployeeDTO com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeDTO))
+2023-02-17 19:45:54.141 ERROR 15884 --- [http-nio-9081-exec-4] com.example.demo.OAP.ServiceAspect       : Error calledexecution(EmployeeDTO com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeDTO))
+2023-02-17 19:45:54.141  INFO 15884 --- [http-nio-9081-exec-4] com.example.demo.OAP.ServiceAspect       : after calledexecution(EmployeeDTO com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeDTO))
+2023-02-17 19:45:54.144 ERROR 15884 --- [http-nio-9081-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/likelion] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeServiceImpl.java:14) ~[classes/:na]
+	at com.example.demo.service.ServiceImpl.EmployeeServiceImpl$$FastClassBySpringCGLIB$$9332e1bb.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.25.jar:5.3.25]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.25.jar:5.3.25]
+	at com.example.demo.service.ServiceImpl.EmployeeServiceImpl$$EnhancerBySpringCGLIB$$f3c71edc.getEmployeeDTO(<generated>) ~[classes/:na]
+	at com.example.demo.controller.EmployeeController.getEmployeeService(EmployeeController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670) ~[tomcat-embed-core-9.0.71.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.25.jar:5.3.25]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.71.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-02-17 21:10:55.634  INFO 3016 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 3016 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 21:10:55.678  INFO 3016 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 21:10:57.951  INFO 3016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 21:10:57.964  INFO 3016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 21:10:57.965  INFO 3016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 21:10:58.086  INFO 3016 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 21:10:58.086  INFO 3016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2368 ms
+2023-02-17 21:10:58.656  INFO 3016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 21:10:58.667  INFO 3016 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.386 seconds (JVM running for 10.137)
+2023-02-17 21:12:12.772  INFO 3016 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 21:12:12.772  INFO 3016 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 21:12:12.773  INFO 3016 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 21:12:12.785  INFO 3016 --- [http-nio-9081-exec-1] c.e.d.I.OfficeServiceInterceptor         : Pre Handle method is Calling
+2023-02-17 21:12:12.922  INFO 3016 --- [http-nio-9081-exec-1] com.example.demo.OAP.ServiceAspect       :  before calledexecution(EmployeeDTO com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeDTO))
+2023-02-17 21:12:12.929  INFO 3016 --- [http-nio-9081-exec-1] com.example.demo.OAP.ServiceAspect       : after calledexecution(EmployeeDTO com.example.demo.service.ServiceImpl.EmployeeServiceImpl.getEmployeeDTO(EmployeeDTO))
+2023-02-17 21:12:12.951  INFO 3016 --- [http-nio-9081-exec-1] c.e.d.I.OfficeServiceInterceptor         : Execution: 164ms
+2023-02-17 21:12:12.951  INFO 3016 --- [http-nio-9081-exec-1] c.e.d.I.OfficeServiceInterceptor         : Post Handle method is Calling
+2023-02-17 21:12:12.951  INFO 3016 --- [http-nio-9081-exec-1] c.e.d.I.OfficeServiceInterceptor         : Request and Response is completed
+2023-02-17 21:42:02.522  INFO 6772 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 6772 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 21:42:02.525  INFO 6772 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 21:42:03.755  INFO 6772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 21:42:03.762  INFO 6772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 21:42:03.764  INFO 6772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 21:42:03.884  INFO 6772 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 21:42:03.884  INFO 6772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2023-02-17 21:42:04.537  INFO 6772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 21:42:04.560  INFO 6772 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.531 seconds (JVM running for 3.863)
+2023-02-17 21:42:10.022  INFO 6772 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 21:42:10.022  INFO 6772 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 21:42:10.023  INFO 6772 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 21:43:06.957  INFO 5324 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 5324 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 21:43:06.964  INFO 5324 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 21:43:08.933  INFO 5324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 21:43:08.948  INFO 5324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 21:43:08.948  INFO 5324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 21:43:09.208  INFO 5324 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 21:43:09.208  INFO 5324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2161 ms
+2023-02-17 21:43:10.320  INFO 5324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 21:43:10.341  INFO 5324 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.051 seconds (JVM running for 5.462)
+2023-02-17 21:47:53.909  INFO 5324 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 21:47:53.910  INFO 5324 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 21:47:53.911  INFO 5324 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 22:51:23.629  INFO 12760 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 12760 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 22:51:23.705  INFO 12760 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 22:51:26.361  INFO 12760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 22:51:26.369  INFO 12760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 22:51:26.369  INFO 12760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 22:51:26.477  INFO 12760 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 22:51:26.477  INFO 12760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2716 ms
+2023-02-17 22:51:27.003  INFO 12760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 22:51:27.015  INFO 12760 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.785 seconds (JVM running for 5.839)
+2023-02-17 22:52:16.042  INFO 12760 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 22:52:16.043  INFO 12760 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 22:52:16.044  INFO 12760 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 22:52:16.055  WARN 12760 --- [http-nio-9081-exec-1] o.apache.coyote.http11.Http11Processor   : The HTTP response header [name] with value [Hậu nè] has been removed from the response because it is invalid
+
+java.lang.IllegalArgumentException: The Unicode character [ậ] at code point [7,853] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1065) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:379) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.Response.action(Response.java:211) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.Response.sendHeaders(Response.java:440) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:292) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:252) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.Response.finishResponse(Response.java:445) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:391) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-02-17 22:53:03.965  WARN 12760 --- [http-nio-9081-exec-4] o.apache.coyote.http11.Http11Processor   : The HTTP response header [name] with value [Hậu nè] has been removed from the response because it is invalid
+
+java.lang.IllegalArgumentException: The Unicode character [ậ] at code point [7,853] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:286) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:255) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:394) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:372) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1065) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:379) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.Response.action(Response.java:211) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.Response.sendHeaders(Response.java:440) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:292) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:252) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.Response.finishResponse(Response.java:445) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:391) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-02-17 22:53:40.635  INFO 8472 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 8472 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 22:53:40.639  INFO 8472 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 22:53:42.113  INFO 8472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 22:53:42.120  INFO 8472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 22:53:42.122  INFO 8472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 22:53:42.229  INFO 8472 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 22:53:42.229  INFO 8472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1523 ms
+2023-02-17 22:53:42.908  INFO 8472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 22:53:42.922  INFO 8472 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.82 seconds (JVM running for 3.966)
+2023-02-17 22:54:15.288  INFO 8472 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 22:54:15.288  INFO 8472 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 22:54:15.289  INFO 8472 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 22:54:42.108  INFO 13388 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 13388 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 22:54:42.112  INFO 13388 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 22:54:42.974  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 22:54:42.980  INFO 13388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 22:54:42.981  INFO 13388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 22:54:43.065  INFO 13388 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 22:54:43.065  INFO 13388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 902 ms
+2023-02-17 22:54:43.554  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 22:54:43.563  INFO 13388 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.859 seconds (JVM running for 3.016)
+2023-02-17 22:54:46.658  INFO 13388 --- [http-nio-9081-exec-1] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 22:54:46.659  INFO 13388 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 22:54:46.661  INFO 13388 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 22:55:06.698  INFO 7988 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 7988 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 22:55:06.701  INFO 7988 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 22:55:07.979  INFO 7988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 22:55:07.985  INFO 7988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 22:55:07.985  INFO 7988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 22:55:08.156  INFO 7988 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 22:55:08.156  INFO 7988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1379 ms
+2023-02-17 22:55:08.981  INFO 7988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 22:55:08.996  INFO 7988 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.73 seconds (JVM running for 3.781)
+2023-02-17 22:56:46.266  INFO 7988 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 22:56:46.267  INFO 7988 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 22:56:46.268  INFO 7988 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-17 22:57:07.780  INFO 16188 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.16 on DESKTOP-5KV9302 with PID 16188 (E:\Shinhan\demo\target\classes started by HauPC in E:\Shinhan\demo)
+2023-02-17 22:57:07.783  INFO 16188 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 22:57:08.914  INFO 16188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2023-02-17 22:57:08.921  INFO 16188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 22:57:08.922  INFO 16188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 22:57:09.048  INFO 16188 --- [main] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring embedded WebApplicationContext
+2023-02-17 22:57:09.048  INFO 16188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1212 ms
+2023-02-17 22:57:09.673  INFO 16188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path '/likelion'
+2023-02-17 22:57:09.687  INFO 16188 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.553 seconds (JVM running for 3.849)
+2023-02-17 22:58:23.718  INFO 16188 --- [http-nio-9081-exec-2] o.a.c.c.C.[.[localhost].[/likelion]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 22:58:23.719  INFO 16188 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-17 22:58:23.722  INFO 16188 --- [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
