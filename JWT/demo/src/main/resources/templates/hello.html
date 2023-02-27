@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="'Hello, ' + ${name}"></h1>
+  <h1 th:text="'Info, '+ ${text}"></h1>
+<a href="/">Trang chủ</a>
+<h1> Today is great day </h1>
+<h1> Chỉ có những ai đăng nhập mới được xem trang này.</h1>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out">
+
+
+</form>
+</body>
+</html>
